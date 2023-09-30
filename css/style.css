@@ -1,0 +1,155 @@
+* {
+    box-sizing:border-box
+}
+
+/* Container for skill bars */
+.container {
+    width: 100%;
+}
+
+.skills {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+.html {width: 80%; background-color: #4C6085;}
+.css {width: 70%; background-color: #39A0ED;}
+.js {width: 65%; background-color: #434371;}
+.php {width: 60%; background-color: #13C4A3;}
+
+.introduction {
+    background-color: #3AAFA9 !important;
+}
+
+h1 {
+    color: #feffff;
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Mansalva', cursive;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#about p {
+    text-align: center;
+}
+
+div#link {
+    text-align: center;
+}
+
+a#email{
+    font-size: 15px;
+    display: inline-block;
+    color: #feffff;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    border:2px solid #DEF2F1;
+    font-family: 'Mansalva', cursive;
+    transition: background-color 0.5s ease-in;
+}
+
+a#email:hover {
+    background-color: #2b7a78;
+}
+
+a.link {
+    color: #DEF2F1;
+}
+
+.section{
+    background-color: #DEF2F1;
+}
+
+.text-block {
+    background-color: #17252A;
+    color: #feffff;
+    font-family: 'Muli', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2b7a78;
+}
+
+.no-image {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    margin-left: 100px;
+    width: 60%;
+}
+
+.visual {
+    transform: rotate(-5deg);
+    height: auto;
+    background-color: #feffff;
+    float: right;
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-top: 2em;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.visual img{
+    max-width: 100%;
+}
+
+.visual figcaption {
+    padding-top: 2px;
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+    font-size: 20px;
+}
+
+.vertical {
+    max-width: 30%;
+}
+
+.horizontal {
+    max-width: 40%;
+}
+
+/*loading*/
+#loading {
+    background: #DEF2F1 url("../images/loading.gif") center center;
+    width: 100%;
+    height:100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 500;
+    top:0;
+    left:0;
+}
+
+body.loaded #loading {
+    opacity: 0;
+    visibility: hidden;
+}
